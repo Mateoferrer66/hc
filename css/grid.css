@@ -1,0 +1,79 @@
+.container{
+  max-width: 900px;
+  margin:auto;
+}
+
+.row{
+  display: flex;
+}
+
+.col-1{
+  width: 8.3333333333%;
+}
+
+.col-2{
+  width: 16.6666666666%;
+  color: whitesmoke;
+}
+
+.col-2-inicio{
+  width: 16.6666666666%;
+  padding-right: 55%;
+  color: whitesmoke;
+}
+
+.col-2-emoji{
+    width: 16.6666666666%;
+    margin-right: 54%;
+    padding-left: 4%;
+    color: whitesmoke;
+}
+
+
+.col-3{
+  width: 24.999999999%;
+}
+.col-4{
+  width: 33.333333332%;
+  color: #721280;
+}
+.col-5{
+  width: 41.666666665%;
+}
+.col-6{
+  width: 49.999999998%;
+}
+.col-7{
+  width: 58.333333331%;
+}
+.col-8{
+  width: 66.666666664%;
+  color: #128065;
+}
+.col-9{
+  width: 74.999999997%;
+}
+.col-10{
+  width: 83.33333333%;
+}
+.col-11{
+  width: 91.666666663%;
+}
+.col-12{
+  width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+  padding: 10px;
+}
+
+@media (max-width: 900px) {
+  .row{
+    display: inherit;
+  }
+  .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    width: 100%
+  }
+}
+
+/* container > row > column */

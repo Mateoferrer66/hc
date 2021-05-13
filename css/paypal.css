@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_paypal{
+    height: 100vh;
+}
+
+.col-2-inicio-compra{
+    padding-top: 10%;
+    color:whitesmoke;
+}
